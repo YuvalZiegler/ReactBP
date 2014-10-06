@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    link(rel="stylesheet", href="assets/application.css")
+  body
+    #fretboard
+    script(type='text/javascript', src="/assets/vendor")
+    script(type='text/javascript', src="/assets/application")
+    if environment=="development"  
+      script(type='text/javascript').
+        console.log("Development Environment")
