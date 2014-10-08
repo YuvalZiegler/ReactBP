@@ -1,2 +1,6 @@
 # Third Party Libraries Entry point
-#= require_tree vendor
+#= require vendor/jquery
+#= require vendor/lodash
+#= require vendor/backbone
+#= require vendor/React
+#= require vendor/Dispatcher

@@ -8,12 +8,15 @@
 #= require_tree store
 #= require_tree components
 
-Fretboard = React.createClass
+Site = React.createClass
   render: ->
-    <div className="fretboard">
-     	<Header/>
-     	<Main/>
+    <div className="site-wrapper">
+     	<div className="content-wrapper">
+        <Header/>
+     	  <Main/>
+        <div className="push"/>
+      </div>
      	<Footer/>
     </div>
 
-React.renderComponent <Fretboard/> , document.getElementById('fretboard')
+React.renderComponent <Site/> , document.getElementById('react')
