@@ -1,5 +1,3 @@
-# @cjsx React.DOM
-
 Main = React.createClass
 
 	render: ->

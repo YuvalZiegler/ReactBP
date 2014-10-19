@@ -20,7 +20,6 @@ app.use('/assets', Mincer.createServer(mincerEnvironment));
 app.get('/', function(req, res){
 
   res.set('Content-Type', 'text/html');
-  
   res.render('index', { 
     environment: environment, 
     pageTitle: "Fretboard" 
@@ -28,7 +27,8 @@ app.get('/', function(req, res){
   });
 
 });
-
+  
 app.listen(3000)
+console.log("[APP] http://localhost:3000")
 
 

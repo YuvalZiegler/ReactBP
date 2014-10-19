@@ -1,5 +1,3 @@
-# @cjsx React.DOM
-
 ArticleComponent = React.createClass
 
 	render: ->

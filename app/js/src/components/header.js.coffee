@@ -1,5 +1,3 @@
-# @cjsx React.DOM
-
 Header = React.createClass
 
 	render: ->

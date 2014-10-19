@@ -1,12 +1,13 @@
-# @cjsx React.DOM
+# Library
+#= require lib/Flux
 
-# Application Entry Point
-#= require_tree constants
-#= require_tree utils
-#= require_tree actions
-#= require_tree dispatcher
-#= require_tree store
-#= require_tree components
+# App
+#= require_tree src/constants
+#= require_tree src/utils
+#= require_tree src/actions
+#= require_tree src/dispatcher
+#= require_tree src/store
+#= require_tree src/components
 
 Site = React.createClass
   render: ->
@@ -19,4 +20,4 @@ Site = React.createClass
      	<Footer/>
     </div>
 
-React.renderComponent <Site/> , document.getElementById('react')
+React.render <Site/> , document.getElementById('react')

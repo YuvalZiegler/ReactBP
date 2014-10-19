@@ -1,5 +1,3 @@
-# @cjsx React.DOM
-
 Footer = React.createClass
 
 	render: ->

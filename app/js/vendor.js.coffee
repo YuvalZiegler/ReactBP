@@ -3,4 +3,3 @@
 #= require vendor/lodash
 #= require vendor/backbone
 #= require vendor/React
-#= require vendor/Dispatcher
